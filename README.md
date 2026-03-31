@@ -100,3 +100,16 @@ set TENDER_MILVUS_URI=http://localhost:19530
 - 合规规则校验模块间一致性
 - 预算工具模拟企业定额计价系统
 - 前端支持文档上传、知识导入、检索、生成全流程演示
+<img width="1359" height="865" alt="image" src="https://github.com/user-attachments/assets/f0f810d3-bbc3-4cb9-8d0e-0405eaa72817" />
+<img width="1247" height="937" alt="image" src="https://github.com/user-attachments/assets/d7a3bf32-b9ea-43ed-b59e-73703248ab96" />
+<img width="1268" height="543" alt="image" src="https://github.com/user-attachments/assets/cc774c01-a2b5-4679-b58c-c2b01a85cb85" />
+<img width="865" height="913" alt="image" src="https://github.com/user-attachments/assets/e59792c8-1125-4b37-ae46-134f2b4895a4" />
+<img width="885" height="755" alt="image" src="https://github.com/user-attachments/assets/88340d0d-58ab-4929-8a83-dfa536644f08" />
+<img width="665" height="629" alt="image" src="https://github.com/user-attachments/assets/ff05c0a5-650e-4675-9410-39c3161e21bf" />
+<img width="628" height="447" alt="image" src="https://github.com/user-attachments/assets/bc0d3097-067a-4261-805f-8e7bd709f894" />
+<img width="874" height="546" alt="image" src="https://github.com/user-attachments/assets/3d59afef-6fad-418f-9dff-3fcf4a5b950d" />
+
+
+
+
+

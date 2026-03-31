@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>建筑工程智能标书平台</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">建筑工程投标智能体平台</p>
+        <h1>多 Agent 智能标书生成系统</h1>
+        <p class="hero-copy">支持 PDF、Word、Excel 混合导入，自动扩展企业知识库，结合混合检索、预算工具调用和一致性校验生成标书。</p>
+      </div>
+      <div class="hero-badge">
+        <span id="backendBadge">系统状态加载中</span>
+      </div>
+    </header>
+
+    <main class="content-grid">
+      <section class="panel stack-panel">
+        <section class="panel-block">
+          <div class="panel-title-row">
+            <h2>标书生成请求</h2>
+            <button id="loadDemoBtn" class="ghost-button">载入示例</button>
+          </div>
+          <textarea id="requestInput" spellcheck="false"></textarea>
+          <div class="actions">
+            <button id="generateBtn" class="primary-button">生成标书</button>
+            <button id="searchBtn" class="secondary-button">执行知识检索</button>
+          </div>
+        </section>
+
+        <section class="panel-block upload-block">
+          <div class="panel-title-row">
+            <h2>知识库文件导入</h2>
+            <span class="tip">支持 PDF / DOCX / XLSX / CSV / TXT / MD</span>
+          </div>
+          <div class="upload-grid">
+            <input id="fileInput" type="file" accept=".pdf,.docx,.xlsx,.csv,.txt,.md">
+            <select id="categoryInput">
+              <option value="technical">技术资料</option>
+              <option value="budget">预算资料</option>
+              <option value="business">商务资质</option>
+              <option value="compliance">合规规则</option>
+            </select>
+            <input id="regionInput" type="text" value="江苏" placeholder="地区，如江苏">
+            <input id="projectTypeInput" type="text" value="industrial" placeholder="项目类型，如 industrial">
+            <input id="tagsInput" type="text" value="企业资料,导入文档,RAG" placeholder="标签，逗号分隔">
+          </div>
+          <div class="actions">
+            <button id="uploadBtn" class="primary-button">导入知识文件</button>
+          </div>
+        </section>
+      </section>
+
+      <section class="panel result-panel">
+        <div class="panel-title-row">
+          <h2>系统输出</h2>
+          <span id="statusText">等待操作</span>
+        </div>
+        <div id="resultTabs" class="tabs"></div>
+        <pre id="resultOutput" class="result-output"></pre>
+      </section>
+    </main>
+  </div>
+
+  <script src="/assets/app.js"></script>
+</body>
+</html>

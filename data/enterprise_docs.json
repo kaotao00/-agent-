@@ -1,0 +1,123 @@
+{
+  "documents": [
+    {
+      "doc_id": "tech-001",
+      "title": "工业园项目施工组织设计模板",
+      "category": "technical",
+      "tags": [
+        "施工组织",
+        "安全",
+        "质量",
+        "工业园"
+      ],
+      "region": "江苏",
+      "project_type": "industrial",
+      "content": "适用于工业厂房与园区类项目。强调分区流水施工、样板先行、穿插施工、安全文明标准化管理、质量过程验收和总工期倒排控制。"
+    },
+    {
+      "doc_id": "tech-002",
+      "title": "建筑工程安全文明施工规范摘要",
+      "category": "technical",
+      "tags": [
+        "规范",
+        "安全",
+        "文明施工"
+      ],
+      "region": "通用",
+      "project_type": "general",
+      "content": "施工现场应执行三级安全教育、专项施工方案审批、危大工程监测、脚手架验收、临电管理和质量安全闭环整改要求。"
+    },
+    {
+      "doc_id": "tech-003",
+      "title": "大型厂房总工期编排经验",
+      "category": "technical",
+      "tags": [
+        "工期",
+        "厂房",
+        "里程碑"
+      ],
+      "region": "江苏",
+      "project_type": "industrial",
+      "content": "工业厂房项目宜采用里程碑倒排和关键线路双控机制，将基础、主体、安装、调试分段穿插，缩短总体工期。"
+    },
+    {
+      "doc_id": "budget-001",
+      "title": "江苏地区工业厂房预算编制经验库",
+      "category": "budget",
+      "tags": [
+        "预算",
+        "报价",
+        "定额",
+        "江苏"
+      ],
+      "region": "江苏",
+      "project_type": "industrial",
+      "content": "工业厂房项目报价应结合企业定额、地区人工材料价格波动和历史中标区间进行综合测算，并保留管理费和税金口径一致。"
+    },
+    {
+      "doc_id": "budget-002",
+      "title": "工程量清单计价说明",
+      "category": "budget",
+      "tags": [
+        "清单",
+        "计价",
+        "报价"
+      ],
+      "region": "通用",
+      "project_type": "general",
+      "content": "预算编制需依据工程量清单、子目单价、措施费、规费及税金进行汇总，确保报价逻辑完整且可追溯。"
+    },
+    {
+      "doc_id": "budget-003",
+      "title": "企业定额计价系统接入手册",
+      "category": "budget",
+      "tags": [
+        "接口",
+        "定额",
+        "系统"
+      ],
+      "region": "通用",
+      "project_type": "general",
+      "content": "通过标准接口传入清单项编码与工程量，可返回企业内部定额单价、措施费参考值和历史报价区间。"
+    },
+    {
+      "doc_id": "biz-001",
+      "title": "企业资质与工业项目业绩库",
+      "category": "business",
+      "tags": [
+        "资质",
+        "业绩",
+        "项目经理"
+      ],
+      "region": "江苏",
+      "project_type": "industrial",
+      "content": "企业具备建筑工程施工总承包一级资质，拥有多项工业园区、厂房及研发中心项目业绩，可提供一级建造师和完整证书材料。"
+    },
+    {
+      "doc_id": "biz-002",
+      "title": "商务响应资料整理指引",
+      "category": "business",
+      "tags": [
+        "商务",
+        "响应",
+        "证书"
+      ],
+      "region": "通用",
+      "project_type": "general",
+      "content": "商务标编制需确保资质证书、业绩证明、项目经理证书、授权文件和承诺函齐全，资料真实且可核验。"
+    },
+    {
+      "doc_id": "com-001",
+      "title": "招标响应性与废标项检查清单",
+      "category": "compliance",
+      "tags": [
+        "合规",
+        "响应性",
+        "校验"
+      ],
+      "region": "通用",
+      "project_type": "general",
+      "content": "应重点核查工期、质量标准、资质等级、项目经理资格、报价有效性、文件完整性及关键承诺是否满足招标要求。"
+    }
+  ]
+}
